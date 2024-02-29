@@ -1,0 +1,67 @@
+html {
+	background-color: #fbf2ea;
+	font-family: 'Quicksand', sans-serif;
+}
+
+body {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 75ch;
+	padding: 1rem;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	color: #242423;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.reduced-image {
+	transform: scale(0.7);
+}
+
+/* Main Styling */
+h1 {
+	margin: 1rem 0;
+	font-size: 2.5rem;
+	color: #004f69;
+}
+
+.subtitle {
+	margin: 1rem 0;
+	font-size: 1.5rem;
+	color: #004f69;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+p {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+span {
+	margin-left: 10px;
+}
+
+/* Footer Styling */
+footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: baseline;
+	padding: 10px;
+	text-align: center;
+	position: relative;
+}
+
+.footer-item {
+	margin: 0 10px;
+}

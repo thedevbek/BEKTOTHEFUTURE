@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/global.css';
+---
+
+<BaseLayout>
+	<style>
+		/* Custom styles */
+		.background-image {
+			background-image: url('delorean_logo.png'); /* Adjust path as needed */
+			background-size: cover;
+			background-position: center;
+			height: 100vh; /* Adjust height as needed */
+		}
+
+		/* Hide navigation */
+		.navbar {
+			display: none;
+		}
+	</style>
+
+	<!-- Container for the content -->
+	<div class="background-image flex flex-col justify-start items-center">
+		<div class="text-center">
+			<h1 class="text-3xl pt-5 mb-5 text-white">
+				Hop on in to the Future!
+			</h1>
+			<a
+				href="/blog"
+				class="mt-4 px-4 py-2 bg-[rgb(18,156,213)] font-bold uppercase text-white rounded-md hover:bg-blue-600"
+				>Enter Here</a
+			>
+		</div>
+	</div>
+</BaseLayout>
