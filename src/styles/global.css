@@ -1,6 +1,7 @@
 html {
-	background-color: #fbf2ea;
+	background-color: rgba(180,157,195, 0.3);
 	font-family: 'Quicksand', sans-serif;
+	color: #232b2b,
 }
 
 body {
@@ -29,13 +30,13 @@ body {
 h1 {
 	margin: 1rem 0;
 	font-size: 2.5rem;
-	color: #004f69;
+	color: rgb(22,72,146);
 }
 
 .subtitle {
 	margin: 1rem 0;
 	font-size: 1.5rem;
-	color: #004f69;
+	color: rgb(22,72,146);;
 }
 
 li {

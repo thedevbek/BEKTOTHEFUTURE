@@ -5,35 +5,41 @@ import "../styles/global.css";
 ---
 
 <BaseLayoutWithoutNavAndFooter>
-  <style>
-	body {
-		margin: 0;mt-4
-		padding: 0;
-	}
-	
-    /* Custom styles */
-    .background-image {
-      background-image: url("/delorean_logo.png");
-      background-size: cover;
-      background-position: center;
-      height: 100vh; /* Adjust height as needed */
-    }
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
 
-    /* Hide navigation */
-    .navbar {
-      display: none;
-    }
+        /* Custom styles */
+        .background-image {
+            background-image: url("/delorean_logo.png");
+            background-size: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
 
-  </style>
+        /* Hide navigation */
+        .navbar {
+            display: none;
+        }
+    </style>
 
-  <!-- Container for the content -->
-  <div class="background-image flex flex-col justify-start items-center h-full">
-    <div class="text-center pt-10">
-      <a
-        href="/blog"
-        class="mt-4 px-4 py-2 bg-[rgb(18,156,213)] font-bold uppercase text-white rounded-md hover:bg-blue-600"
-        >Hop on in to the Future!</a
-      >
+    <!-- Container for the content -->
+    <div class="background-image">
+        <div class="text-center pt-8"></div>
+        <div class="text-center pb-8">
+            <h1 class="text-white text-4xl font-bold">Hop on into...</h1>
+            <a
+                href="/blog"
+                class="px-4 py-4 bg-[rgb(210,144,162)] font-bold uppercase text-white rounded-md hover:bg-blue-600"
+                >the future awaits!</a
+            >
+        </div>
     </div>
-  </div>
 </BaseLayoutWithoutNavAndFooter>
